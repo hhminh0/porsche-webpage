@@ -1,0 +1,241 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+#start {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(22, 19, 19, 0.7),rgba(0,0,0,0.7)),url(https://kientrucvadoisong.net/Upload/News/porsche-viet-nam-gioi-thieu-dong-xe-cayenne-moi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 44px;
+    
+}
+
+.logo {
+    width: 8%;
+    height: 86px;
+    padding-left: 6.5%;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    margin-right: 50px;
+    transition: 0.4 ease;
+}
+
+#menu-icon:hover {
+    color: #c5bdbd;
+}
+
+/* nav {
+    width: 100%;
+    height: 90px;
+    background-color: #0005;
+} */
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #c5bdbd;
+    margin: 35px;
+    transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+    color:rgb(206, 126, 140);
+}
+
+.banner2 {
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+.banner2 .textbox {
+    font-size: 30px;
+    position: absolute;
+    color: #fff;
+    padding-left:0;
+    padding-top: 0;
+    font-family: "Lora", serif;
+    padding-top: 10%;
+    padding-left: 14%;
+    
+}
+
+.banner2 .textbox h2 {
+    padding-bottom: 30px;
+}
+
+.banner2 .textbox h2 span {
+    color: #FAC140;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Lora", serif;
+}
+
+.banner2 .textbox h6 span {
+    color: #FDFCDC;
+    
+    font-family: "Lora", serif;
+}
+
+.banner2 .textbox a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 12px;
+    margin-top: 36px;
+    margin-left: 20px;
+    background-color: #5D7B6F;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.banner2 .textbox a:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translateX(6px);
+}
+
+
+.banner2 .icons {
+    position: absolute;
+    top: 23%;
+}
+
+.banner2 .icons a {
+    text-decoration: none;
+    background-color: #2511113d;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    border-radius: 10px;
+    padding: 6px;
+    margin: 24px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+.banner2 .icons a:hover {
+    background-color: #20130b;
+    transform: translateX(3px);
+    color: #fff;
+}
+
+
+
+/* button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+} */
+
+
+.slider {
+    width: 770px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    left: 21%;
+    overflow: hidden;
+}
+  
+.slider .list {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.list img {
+    width: 770px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+  
+.buttons {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+  
+button {
+    background-color: #fff5;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    transition: 0.28s ease-in-out;
+}
+
+button:hover {
+    background-color: #c5bdbd;
+}
+
+/* .dots {
+    position: absolute;
+    bottom: 65%;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.dots li {
+    list-style: none;
+    display: flex;
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    margin: 20px;
+    border-radius: 20px;
+} */
+
+
+
+  
+  
